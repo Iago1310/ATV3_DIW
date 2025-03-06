@@ -1,5 +1,24 @@
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 60px; /* Espaço para o cabeçalho fixo */
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #header{
 background-color: #040629;
+top: 0;
+left: 0;
+padding: 10px 0;
+z-index: 1000;
+text-align: center;
 height: 90px;
 width: 100%;
 margin-left: 0%;
@@ -20,47 +39,21 @@ h1 :hover{
     color: #116ef0;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header nav ul{
+list-style: none;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding-top: 60px; /* Espaço para o cabeçalho fixo */
+header nav ul li{
+display: inline;
+margin: 0 15px;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    z-index: 1000;
-    text-align: center;
+header nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
 }
 
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: #ff6600;
+header nav ul li a:hover{
+color: #ff6600;
 }
