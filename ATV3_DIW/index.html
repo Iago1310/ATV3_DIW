@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal de Notícias Local - Fique por dentro dos principais acontecimentos da sua cidade.">
+    <meta property="og:title" content="Portal de Notícias Local">
+    <meta property="og:image" content="https://picsum.photos/id/1/200/300">
+    <title>Portal de Notícias Local</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 
 <body>
-    <div>
-        <header id="header">
-
-         <H1> <a>Seja Bem Vindo!!!</a></H1>
-
-            <nav>
-                <ul>
-                    <li><a href="#politica">Política</a></li>
-                    <li><a href="#esportes">Esportes</a></li>
-                    <li><a href="#entretenimento">Entretenimento</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        </ul>
-
-
+    <header id="header">
+        <h1><a href="/">Seja Bem-vindo ao Portal de Notícias</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#politica">Política</a></li>
+                <li><a href="#esportes">Esportes</a></li>
+                <li><a href="#entretenimento">Entretenimento</a></li>
+            </ul>
         </nav>
+    </header>
 
-z
-        </header>
-        <nav></nav>
-        <section></section>
-        <article></article>
-        <aside></aside>
-        <footer></footer>
-    </div>
+    <main>
+        <section id="pesquisa">
+            <form action="#">
+                <input type="text" id="barra-pesquisa" placeholder="Pesquisar notícias..." class="barra-pesquisa">
+                <button type="submit" id="btn-pesquisar">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="conteudo">
+            <!-- As notícias serão carregadas aqui dinamicamente -->
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2025 Portal de Notícias Local. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
