@@ -1,144 +1,139 @@
-/* Resetando margens e padding */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-/* Corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding-top: 90px;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;
+padding-top: 90px;
 }
 
-/* Cabeçalho fixo */
 #header {
-    background-color: #040629;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    position: fixed;
-    z-index: 1000;
-    text-align: center;
-    height: 90px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 1%;
+background-color: #040629;
+top: 0;
+left: 0;
+width: 100%;
+padding: 10px 0;
+position: fixed;
+z-index: 1000;
+text-align: center;
+height: 90px;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 1%;
 }
 
 #header h1 {
-    color: white;
-    margin: 0;
+color: white;
+margin: 0;
 }
 
 #header a {
-    text-decoration: none;
-    color: white;
+text-decoration: none;
+color: white;
 }
 
 #header a:hover {
-    color: #116ef0;
+color: #116ef0;
 }
 
-/* Navegação */
 header nav ul {
-    list-style: none;
+list-style: none;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 15px;
+display: inline;
+margin: 0 15px;
 }
 
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+color: white;
+text-decoration: none;
+font-weight: bold;
 }
 
 header nav ul li a:hover {
-    color: #ff6600;
+color: #ff6600;
 }
 
-/* Seção de Pesquisa */
 #pesquisa {
-    text-align: center;
-    margin: 20px 0;
+text-align: center;
+margin: 20px 0;
 }
 
 .barra-pesquisa {
-    width: 300px;
-    padding: 10px;
-    font-size: 1rem;
-    margin-right: 10px;
+width: 300px;
+padding: 10px;
+font-size: 1rem;
+margin-right: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #116ef0;
-    color: white;
-    border: none;
-    cursor: pointer;
+padding: 10px 20px;
+font-size: 1rem;
+background-color: #116ef0;
+color: white;
+border: none;
+cursor: pointer;
 }
 
 button:hover {
-    background-color: #ff6600;
-}
-
-/* Conteúdo principal */
-#conteudo {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
+background-color: #ff6600;
 }
 
 article {
-    width: 30%;
-    margin: 20px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+width: 30%;
+margin: 20px;
+padding: 15px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
-    color: #040629;
+color: #040629;
 }
 
 article img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+width: 100%;
+height: auto;
+border-radius: 8px;
 }
 
 article p {
-    color: #666;
-    font-size: 1rem;
+color: #666;
+font-size: 1rem;
 }
 
 article a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #116ef0;
-    text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+color: #116ef0;
+text-decoration: none;
 }
 
 article a:hover {
-    color: #ff6600;
+color: #ff6600;
 }
 
-/* Rodapé */
 #footer {
-    background-color: #040629;
-    color: white;
+background-color: #040629;
+color: white;
+text-align: center;
+padding: 15px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+font-size: 0.8rem;
+}
+.img1 {
+    width: 200px;
+    height: 100px;
+}
+#conteudo{
     text-align: center;
-    padding: 15px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.8rem;
+    border-radius: 20%;
+    gap: 8px;
 }
